@@ -1,0 +1,17 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Accountants]
+       [dbo].[Technicians]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[Accountants] (Table)
+       [dbo].[Technicians] (Table)
+
+** Supporting actions

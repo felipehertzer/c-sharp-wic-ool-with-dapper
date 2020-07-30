@@ -1,0 +1,2 @@
+C:\Users\felip\source\repos\WicSchool\WicSchool\obj\Debug\WicSchool.Web.csproj.CoreCompileInputs.cache
+C:\Users\felip\source\repos\WicSchool\WicSchool\obj\Debug\WicSchool.Web.csprojAssemblyReference.cache

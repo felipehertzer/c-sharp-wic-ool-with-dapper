@@ -1,0 +1,78 @@
+﻿@model WicSchool.Models.Employee
+
+@{
+    ViewBag.Title = "Employee Details";
+}
+
+    <h2> Employee Details - @Model.EmployeeName </h2>
+
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.LabelFor(model => model.EmployeeId, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DisplayFor(model => model.EmployeeId)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.EmployeeName, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DisplayFor(model => model.EmployeeName)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.EmployeeType, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DisplayFor(model => model.EmployeeType)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.RatePerHour, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DisplayFor(model => model.RatePerHour)
+                    </div>
+                </div>
+                @if (Model.EmployeeType.Contains("accountant"))
+                {
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Accountant.CPANumber, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DisplayFor(model => model.Accountant.CPANumber)
+                        </div>
+                    </div>
+                }
+                else if (Model.EmployeeType.Contains("technician"))
+                {
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Technician.ACSNumber, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DisplayFor(model => model.Technician.ACSNumber)
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Technician.Expire, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DisplayFor(model => model.Technician.Expire)
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+
+        <div>
+            @Html.ActionLink("Back to List", "ViewEmployees")
+        </div>
+
+        @section Scripts {
+            @Scripts.Render("~/bundles/jqueryval")
+        }

@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Accountants]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[EmployeeId] INT NOT NULL,
+	[CPANumber] NCHAR(50) NOT NULL
+)

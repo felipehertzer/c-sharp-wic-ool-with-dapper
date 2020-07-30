@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Technicians]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[EmployeeId] INT NOT NULL,
+	[ACSNumber] NCHAR(50) NOT NULL,
+	[Expire] DATETIME NULL,
+)

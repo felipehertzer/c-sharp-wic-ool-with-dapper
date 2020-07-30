@@ -1,0 +1,11 @@
+C:\Users\felip\source\repos\WicSchool\WicSchool.Data\obj\Debug\WicSchool.Data.csproj.CoreCompileInputs.cache
+C:\Users\felip\source\repos\WicSchool\WicSchool.Data\obj\Debug\WicSchool.Data.csprojAssemblyReference.cache
+C:\Users\felip\source\repos\WicSchool\WicSchool.Data\bin\Debug\WicSchool.Data.dll
+C:\Users\felip\source\repos\WicSchool\WicSchool.Data\bin\Debug\WicSchool.Data.pdb
+C:\Users\felip\source\repos\WicSchool\WicSchool.Data\bin\Debug\Dapper.dll
+C:\Users\felip\source\repos\WicSchool\WicSchool.Data\bin\Debug\WicSchool.DB.dll
+C:\Users\felip\source\repos\WicSchool\WicSchool.Data\bin\Debug\WicSchool.DB.pdb
+C:\Users\felip\source\repos\WicSchool\WicSchool.Data\bin\Debug\Dapper.xml
+C:\Users\felip\source\repos\WicSchool\WicSchool.Data\obj\Debug\WicSchool.Data.csproj.CopyComplete
+C:\Users\felip\source\repos\WicSchool\WicSchool.Data\obj\Debug\WicSchool.Data.dll
+C:\Users\felip\source\repos\WicSchool\WicSchool.Data\obj\Debug\WicSchool.Data.pdb
